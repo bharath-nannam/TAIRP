@@ -1,0 +1,174 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.881);
+    align-items: center
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:12px;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+    margin-left: -50px;
+}
+.logo h2{
+    margin-left: -60px;
+    margin-right: 290px;
+    color: white;
+    font-size: 28px;
+    font-family: "Lucida Handwriting", cursive;
+}
+.logo h5{
+    color: white;
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+
+
+/*==============main-content===============*/
+
+.navigation{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.navigation a{
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/*==========biryani=========*/
+
+.biryani h1{
+    font-size: 45px;
+    padding-left: 30%;
+    padding-top: 30px;
+}
+
+/*===========about==========*/
+
+.about h2{
+    font-size: 26px;
+    padding-left: 10%;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.about p{
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*============imgrediants===========*/
+
+.ingredients img{
+    width: 60%;
+    height: 30%;
+    padding-left: 20%;
+    padding-top: 50px;
+}
+.ingredients h2{
+    font-size: 26px;
+    padding-left: 7.5%;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ingredients li{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*==============ingrediants==========*/
+
+.ingredients-1 h2{
+    font-size: 26px;
+    padding-left: 7.5%;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ingredients-1 h4{
+    font-size: 18px;
+    padding-left: 41%;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ingredients-1 p{
+    font-size: 18px;
+    padding-left: 7.5%;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ingredients-1 li{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-left: 20%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*===============instructions==========*/
+
+.instructions h2{
+    font-size: 26px;
+    padding-left: 7.5%;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.instructions li{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.instructions img{
+    width: 40%;
+    height: 35%;
+    padding-left:28%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*============footer============*/
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding-top: 20px;
+    margin-top: 10%;
+}
+.footer h5{
+    color: white;
+    padding-left: 44%;
+    padding-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
