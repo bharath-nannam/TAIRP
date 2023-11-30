@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+}
+.header img{
+    width: 100%;
+    height: 400px;
+}
+.info{
+    margin-top: -375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.info h4{
+    color: white;
+    font-size: 20px;
+    margin-left: -20px;
+    padding-right: 60px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+/*======main-content======*/
+.about{
+    display: flex;
+}
+.about img{
+    width: 300px;
+    height: 420px;
+    margin-top: 400px;
+    padding-left: 40px;
+}
+.about h2{
+    padding-top: 450px;
+    padding-bottom: 40px;
+    padding-left: 400px;
+}
+.about h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about p{
+    margin-top: 30px;
+    padding-left:50px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+/*========studies=======*/
+.studies{
+    display: flex;
+}
+.studies img{
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 140px;
+}
+.studies h2{
+    padding-top: 90px;
+    padding-bottom: 40px;
+    padding-left: 310px;
+}
+.studies h3{
+    padding-left: 40px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.studies p{
+    padding-top: 3px;
+    padding-left:40px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.stu{
+    padding-top: 13px;
+}
+/*========courses=======*/
+
+.courses{
+    display: flex;
+}
+.courses img{
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.courses h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 380px;
+}
+.courses h3{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.courses p{
+    padding-top: 3px;
+    padding-left:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.stu{
+    padding-top: 13px;
+}
+
+/*========certifications=======*/
+
+.certifications{
+    display: flex;
+}
+.certifications img{
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    padding-right: 30px;
+    padding-left: 270px;
+}
+.certifications h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 240px;
+}
+.certifications h3{
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certifications p{
+    padding-top: 3px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.stu{
+    padding-top: 13px;
+}
+
+/*========awards=======*/
+.awards{
+    display: flex;
+}
+.awards img{
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.awards h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 340px;
+}
+.awards h3{
+    padding-left: 40px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.awards p{
+    padding-top: 3px;
+    padding-left:40px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.stu{
+    padding-top: 13px;
+}
+/*========hobbies=======*/
+.hobbies{
+    display: flex;
+}
+.hobbies img{
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    padding-left: 330px;
+}
+.hobbies h2{
+    padding-top: 90px;
+    padding-bottom: 40px;
+    padding-left: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hobbies p{
+    margin-top: 8px;
+    padding-left:160px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+
+
+
+/*========= cr ======*/
+.cr{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*========= footer ======*/
+.footer{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(116, 114, 114);
+}
+.footer .details-1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 290px;
+    padding-right: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details-1 img{
+    width: 30px;
+    height: 30px;
+}
+.details-2 img{
+    width: 30px;
+    height: 30px;
+}
+.footer .details-2{
+    padding-bottom: 40px;
+    padding-left: 290px;
+    padding-right: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+.display{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
